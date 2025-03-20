@@ -3,7 +3,7 @@ name: Build User Script
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:  # Allows manual triggering
+  workflow_dispatch:
 
 jobs:
   build:
@@ -11,7 +11,7 @@ jobs:
     
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Create build directory
         run: mkdir -p build
@@ -20,7 +20,7 @@ jobs:
         run: cp main.js build/main.user.js
       
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: user-script
           path: build/main.user.js
