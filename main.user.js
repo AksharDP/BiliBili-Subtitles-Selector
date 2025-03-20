@@ -3500,5 +3500,5 @@
         }
     }
 
-    start(); // Start the script
+    start();
 })();
