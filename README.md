@@ -11,6 +11,6 @@ With the use of AI and OpenSubtitles, this tool helps you add subtitles to anime
 
 3. Get your OpenSubtitles api token from [here](https://www.opensubtitles.com/en/users/profile)
 
-4. Go to to a anime on BiliBili and go to any episode. (Specially the doamin has to be https://www.bilibili.com/bangumi/*)
+4. Go to an anime on BiliBili and go to any episode. (Specially the domain has to be https://www.bilibili.com/bangumi/*)
 
 5. Click login in the bottom right and put in your opensubtitles API Token.
